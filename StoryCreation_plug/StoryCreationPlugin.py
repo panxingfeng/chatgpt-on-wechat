@@ -92,7 +92,7 @@ class StoryCreationPlugin(Plugin):
     def initiate_story_creation(self, receiver, theme, reply):
         if not theme:
             reply.type = ReplyType.ERROR
-            reply.content = "请提供一个故事主题。中途想退出，输入:退出"
+            reply.content = "请输入(生成故事 故事的主题)。中途想退出，输入:退出"
             return
 
         story_outline = self.generate_story_outline(theme)
