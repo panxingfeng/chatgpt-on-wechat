@@ -26,14 +26,14 @@ def call_model(prompt, content):
         "stream": False
     }
     try:
-        logger.info("发送请求到模型...")
+        logger.info("发送请求到模型服务...")
         response = requests.post(ollama_url, headers=headers, json=llama_data)
         response.raise_for_status()
         result = response.json().get('message', {}).get('content', '')
-        logger.info("从模型接收到响应。")
+        logger.info("从模型服务接收到响应。")
         return result
     except requests.exceptions.RequestException as e:
-        logger.error(f"请求模型出错: {e}")
+        logger.error(f"请求模型时出错: {e}")
         return None
 
 @app.post('/generate_outline')
