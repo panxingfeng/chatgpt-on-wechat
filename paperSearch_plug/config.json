@@ -1,0 +1,6 @@
+{
+  "search_keyword": ["前缀内容"],
+  "api_url": "http://localhost:5000/api/search",
+  "no_query_message": "请提供搜索关键词。",
+  "no_results_message": "未找到相关结果。"
+}
