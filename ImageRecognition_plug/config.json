@@ -1,0 +1,7 @@
+{
+    "recognition_keyword": ["前缀内容"],
+    "no_image_message": "请提供图像进行识别。",
+    "no_query_message": "请描述您想了解的内容。",
+    "recognition_failed_message": "图像识别失败。",
+    "api_url": "python端接口地址"
+}
