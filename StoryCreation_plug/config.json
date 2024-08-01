@@ -1,0 +1,14 @@
+{
+    "api_url": "后端端点",
+    "no_text_message": "请提供一个故事主题。",
+    "story_generation_failed_message": "故事生成失败。",
+    "trigger_word": "生成故事",
+    "messages": {
+      "initial_prompt": "这是根据主题生成的故事大纲:\n{outline}\n你是否满意这个大纲？如果满意，我们可以开始创作故事内容。",
+      "ask_for_more_info": "请提供更多详细信息或期望，我们将重新生成故事大纲。",
+      "content_prompt": "故事内容如下:\n{content}\n你是否满意这个故事？",
+      "completion_message": "故事创作完成！感谢你的参与。如果还有其他需求，请告诉我们。",
+      "confirmation_prompt": "请明确您是否满意{part}。"
+    }
+  }
+  
