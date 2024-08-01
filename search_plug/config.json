@@ -1,0 +1,7 @@
+{
+  "search_keyword": ["搜索"],
+  "no_query_message": "请提供搜索关键词。",
+  "no_results_message": "未找到相关内容。",
+  "api_url": "searXNG的本地网址",
+  "api_key": ""
+}
