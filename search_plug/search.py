@@ -78,6 +78,9 @@ class SearchPlugin(Plugin):
                 e_context.action = EventAction.CONTINUE
 
     def search_content(self, query):
+        """
+        调用外部API
+        """
         # 如果API URL和API密钥已设置，进行搜索
         if self.api_url and self.api_key:
             try:
