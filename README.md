@@ -10,8 +10,11 @@
 
 修改的代码是：
 
+
 {
+
 @itchat.msg_register([TEXT, VOICE, PICTURE, NOTE, ATTACHMENT, SHARING])
+
 
 def handler_single_msg(msg):
 
