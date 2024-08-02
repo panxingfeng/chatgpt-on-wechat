@@ -1,4 +1,4 @@
 {
   "upload_save": "文件临时保存地址",
-  "cache_dir": "下载模型的保存路径"
+  "cache_dir": "模型的缓存路径"
 }
