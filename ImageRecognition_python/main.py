@@ -29,7 +29,7 @@ def load_model_and_tokenizer():
     global model, tokenizer
     try:
         model = AutoModel.from_pretrained(
-            'openbmb/MiniCPM-Llama3-V-2_5',
+            'openbmb/MiniCPM-Llama3-V-2_5',#文件路径保存在c:\\user\\xxx\\.cache\\huggingface\\hub
             trust_remote_code=True,
             torch_dtype=torch.float16,
             cache_dir=cache_dir
